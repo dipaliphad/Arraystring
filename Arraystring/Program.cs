@@ -13,7 +13,7 @@ namespace Arraystring
             int[] numbers = new int[5];
             string[] names = { "aachal", "kajal", "rechal", "pranjal" };
             Console.WriteLine("enter 5 elements");
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < names.Length; i++)
             {
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
